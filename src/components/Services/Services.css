@@ -1,0 +1,109 @@
+.services-area {
+    background-color: #27272E;
+    padding: 80px;
+}
+
+.single-service {
+    border: 1px solid #5956e9;
+    margin: 15px 0;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.single-service:hover {
+    border: 1px solid #fab8c4;;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.single-service h2 {
+    padding-top: 10px; 
+}
+
+.single-service h2:hover {
+    color: #5956e9 !important;  
+}
+
+.single-service p {
+    color: #8F9396 !important;
+    font-size: 18px !important;
+}
+
+.single-service p:hover {
+    color: #ecf2f6 !important;  
+}
+
+.services-area h3 {
+    color: #c75c6f;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services-area h2 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.025em;
+}
+
+.services-area .row h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.025em;
+}
+
+.more-button {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.services-area .more-button {
+    background-color: #5956e9;
+     border: 1px solid #5956e9;
+     border-radius: 4px;
+     color: #fff !important;
+     display: inline-block;
+     font-size: 12px;
+     padding: 12px 25px;
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: .3s;
+     
+}
+
+.services-area .more-button:hover {
+    background-color: transparent;
+    border: 1px solid #fab8c4;
+    color: #fab8c4 !important;
+
+}
+
+/* Responsive Design Start Here */
+@media (max-width: 991px)
+
+{
+    .services-area {
+        padding: 60px 20px;
+    }
+
+    .single-service {
+       margin-left: 0;
+       margin-right: 0;
+    }
+    .services-area h3 {
+        font-size: 18px;
+        text-align: left !important;
+       
+    }
+
+    .services-area h2 {
+        font-size: 38px;
+        text-align: left !important;
+    }
+
+}

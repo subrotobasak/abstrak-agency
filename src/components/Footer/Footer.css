@@ -1,0 +1,22 @@
+.footer-area {
+    padding: 25px 0;
+    background-color: #DBF8FF;
+    border: 1px solid #c2cacc !important;
+}
+
+.footer-area p{
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+ }
+
+/* Responsive Design Start Here */
+@media (max-width: 991px) {
+
+    .footer-area p{
+       text-align: center !important;
+    }
+
+
+}

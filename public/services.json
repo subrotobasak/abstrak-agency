@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "img": "https://i.ibb.co/R0bd2JJ/design.jpg",
+      "title": "Design",
+      "description": "Graphic design creates appealing designs for businesses and individuals using visual communication tools."
+    },
+    {
+      "id": "2",
+      "img": "https://i.ibb.co/WVsGx10/development.jpg",
+      "title": "Development",
+      "description": "Mobile and web development services create, develop and maintain mobile apps and websites."
+    },
+    {
+      "id": "3",
+      "img": "https://i.ibb.co/xf0TWbS/marketing.jpg",
+      "title": "Online marketing",
+      "description": "Online marketing services promote businesses and products through digital channels."
+    },
+    {
+      "id": "4",
+      "img": "https://i.ibb.co/ZVLvfk7/business.jpg",
+      "title": "Business",
+      "description": "Business services encompass a range of professional services to support businesses."
+    },
+    {
+      "id": "5",
+      "img": "https://i.ibb.co/2jxL9Bt/technology.jpg",
+      "title": "Technology",
+      "description": "Technology refers to tools, systems, and methods used to create, process, and distribute information."
+    },
+    {
+      "id": "6",
+      "img": "https://i.ibb.co/tX7kr7x/content-strategy.jpg",
+      "title": "Content strategy",
+      "description": "Content strategy services develop plans for creating and managing content that aligns with business goals."
+    }
+  ]

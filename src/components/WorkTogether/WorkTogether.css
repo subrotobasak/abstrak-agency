@@ -1,0 +1,74 @@
+.work-area {
+    background-color: #2522ba;
+    padding: 80px;
+
+}
+
+
+.work-area .section-heading h3 {
+    color: #ffc107;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.work-area .section-heading h2 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.025em;
+}
+
+.work-area .work-button {
+    background-color: #fff;
+    border: 1px solid #a8a8b4;
+    border-radius: 20px;
+    color: #0d6efd !important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 23px 55px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.work-area .work-button:hover {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    color: #fff !important;
+
+}
+
+
+/* Responsive Design Start Here */
+@media (max-width: 991px) {
+    .work-area {
+        padding: 60px 20px;
+
+    }
+
+    .work-area .section-heading {
+        text-align: start !important;
+    }
+
+
+    .work-area .section-heading h3 {
+        font-size: 18px;
+      
+    }
+
+    .work-area .section-heading h2 {
+        font-size: 38px;
+        
+    }
+
+    .work-area img {
+        width: 100%;
+    }
+
+}

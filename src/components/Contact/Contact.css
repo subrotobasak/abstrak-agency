@@ -1,0 +1,114 @@
+.contact-area {
+    background-color: #ecf2f6;
+    padding: 80px;
+    
+}
+
+.contact-area h3 {
+    color: #c75c6f;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-area h2 {
+    color: #000;
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.025em;
+}
+
+.contact-area p {
+    font-size: 16px;
+}
+
+.cotact-from {
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.cotact-from .contact-button {
+    background-color: #5956e9;
+    border: 1px solid #5956e9;
+    border-radius: 4px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    width: 100%;
+    text-align: center;
+}
+
+.cotact-from .contact-button:hover {
+    background-color: transparent;
+    border: 1px solid #5956e9;
+    color: #5956e9 !important;
+
+}
+
+.contact-area .footer-social a {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5956e9;
+    border: 1px solid #5956e9;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: .3s;
+    
+
+
+}
+
+.contact-area .footer-social a:hover {
+    color: #5956e9;
+    background-color: #fff;
+    border: 1px solid #5956e9;
+
+
+}
+
+.cotact-from h3 {
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+/* Responsive CSS Start */
+@media (max-width: 991px) {
+    .contact-area {
+        padding: 60px 20px;
+    }
+
+    
+    .contact-area h3 {
+        font-size: 18px;
+        text-align: left !important;
+       
+    }
+
+    .contact-area h2 {
+        font-size: 38px;
+        text-align: left !important;
+    }
+
+    .contact-area .footer-social {
+        padding-bottom: 35px;
+    }
+
+    .contact-area .cotact-from {
+        margin: 0;
+    }
+}

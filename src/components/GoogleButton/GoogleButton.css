@@ -1,0 +1,24 @@
+.google-button a {
+    background-color: #5956e9;
+    border: 1px solid #5956e9;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.google-button a:hover {
+    background-color: transparent;
+    border: 1px solid #5956e9;
+    color: #5956e9;
+
+}
+
+.google-button img {
+    padding-right: 8px;
+}
