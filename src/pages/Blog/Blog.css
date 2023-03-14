@@ -1,6 +1,16 @@
 .blog-area {
-    padding: 140px 0;
+   
     background-color: #ecf2f6;
+}
+
+.blog-area .blog-contetn {
+padding: 80px 0;
+}
+
+.single-blog {
+    border: 1px solid #a8a8b4;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 .profile-area {
@@ -8,7 +18,7 @@
 }
 
 .profile-area img {
-    padding: 0 15px;
+    padding-right: 15px;
 }
 
 .blog-area .read-more {
@@ -39,5 +49,9 @@
 {
     .profile-area img {
         margin-bottom: 15px;
+    }
+
+    .single-blog {
+        margin-bottom: 25px;
     }
 }

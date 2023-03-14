@@ -1,17 +1,21 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import AboutImage from "../../assets/about.png"
+import CommonBanner from "../../components/CommonBanner/CommonBanner";
 import "./About.css"
 
 const About = () => {
     return (
         <section className="about-section">
+            <CommonBanner/>
             <Container>
+                
+                <div className="about-area">
                 <Row>
                     <Col lg={6}>
 
                         <img
-                            src={AboutImage} alt="aboutimage" className="w-100" />
+                            src={AboutImage} alt="aboutimage" className="w-100 px-5" />
 
                     </Col>
                     <Col lg={6}>
@@ -25,6 +29,7 @@ const About = () => {
 
                     </Col>
                 </Row>
+                </div>
             </Container>
         </section>
     );

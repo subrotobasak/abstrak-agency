@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import "./Banner.css"
 
 
-const Banner = () => {
+const Banner = () => {  
     return (
         <section className="banner-area">
             <Carousel>

@@ -1,9 +1,11 @@
 .about-section {
     background-color: #ecf2f6;
-    padding: 140px 0;
+   
 }
 
-
+.about-section .about-area {
+    padding: 80px 0;
+}
 
 .about-section h3 {
     color: #c75c6f;
@@ -23,4 +25,16 @@
 .about-section p {
     font-size: 16px;
     
+}
+
+/* Responsive Design Start Here */
+@media (max-width: 991px)
+
+{
+    .about-section .about-area  {
+        padding: 60px 20px;
+    }
+
+  
+
 }
