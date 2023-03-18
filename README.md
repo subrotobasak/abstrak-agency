@@ -1,7 +1,8 @@
 # Using:
 1. React Js
 2. React Bootstrap 
-3. Firebase Authentication
+3. React Router
+4. Firebase Authentication
 
 # Live URL: https://abstrak-agency.netlify.app/
 
